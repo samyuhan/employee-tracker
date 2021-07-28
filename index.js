@@ -17,10 +17,10 @@ connection.connect(function(err) {
   if (err) {
       throw err;
   }
-  exports.question();
+  exports.begin();
 });
 
-exports.question = () => {
+exports.begin = () => {
     inquirer.prompt([
         {
             type: "list",
