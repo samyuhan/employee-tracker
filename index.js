@@ -48,6 +48,18 @@ exports.question = () => {
       else if(answer.choice === "View All Employees") {
         view.viewEmployees();
       }
+      else if(answer.choice === "Add Department") {
+        // add.();
+      }
+      else if(answer.choice === "Add Role") {
+        // add.();
+      }
+      else if(answer.choice === "Add Employee") {
+        // add.();
+      }
+      else if(answer.choice === "Update Role") {
+        // update.();
+      }
       else if(answer.choice === "Quit") {
         connection.end();
         return ;
