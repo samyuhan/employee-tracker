@@ -5,10 +5,10 @@ USE business_db;
 
 CREATE TABLE department (
     id INT PRIMARY KEY,
-    name VARCHAR(30) NOT NULL
+    dept_name VARCHAR(30) NOT NULL
 );
 
-CREATE TABLE role (
+CREATE TABLE emp_role (
     id INT PRIMARY KEY,
     title VARCHAR(30) NOT NULL,
     salary DECIMAL NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE employee (
     last_name VARCHAR(30) NOT NULL,
     role_id INT NOT NULL,
     manager_id INT
-    FOREIGN KEY (role_id) REFERENCES role(id),
+    FOREIGN KEY (role_id) REFERENCES emp_role(id),
     FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
 
