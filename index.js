@@ -52,7 +52,7 @@ exports.begin = () => {
         add.addDept();
       }
       else if(answer.choice === "Add Role") {
-        // add.addRole();
+        add.addRole();
       }
       else if(answer.choice === "Add Employee") {
         // add.();
