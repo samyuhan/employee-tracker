@@ -49,10 +49,10 @@ exports.begin = () => {
         view.viewEmployees();
       }
       else if(answer.choice === "Add Department") {
-        // add.();
+        add.addDept();
       }
       else if(answer.choice === "Add Role") {
-        // add.();
+        // add.addRole();
       }
       else if(answer.choice === "Add Employee") {
         // add.();
