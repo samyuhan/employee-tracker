@@ -55,7 +55,7 @@ exports.begin = () => {
         add.addRole();
       }
       else if(answer.choice === "Add Employee") {
-        // add.();
+        add.addEmployee();
       }
       else if(answer.choice === "Update Role") {
         // update.();
