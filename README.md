@@ -11,7 +11,7 @@ This command-line application was created to manage a company's employee databas
 ## Installation
 To install this generator, please download this repo onto your local computer. Then, make sure to:
 - Install npm packages with ```npm i```
-- Source the sql files with
+- Source the sql files in `cd db` with
 ```
 mysql -u root -p
 source schema.sql
